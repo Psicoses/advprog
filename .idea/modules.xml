@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdvancedItec1.iml" filepath="$PROJECT_DIR$/AdvancedItec1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch2.asg.StockOracle/Ch2.asg.StockOracle.iml" filepath="$PROJECT_DIR$/Ch2.asg.StockOracle/Ch2.asg.StockOracle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture_1_21_25/Lecture_1_21_25.iml" filepath="$PROJECT_DIR$/Lecture_1_21_25/Lecture_1_21_25.iml" />
     </modules>
   </component>
