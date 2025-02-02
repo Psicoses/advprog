@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdvancedItec1.iml" filepath="$PROJECT_DIR$/AdvancedItec1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture_1_21_25/Lecture_1_21_25.iml" filepath="$PROJECT_DIR$/Lecture_1_21_25/Lecture_1_21_25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_1_30_25_Arraysort/Lecture_1_30_25_Arraysort.iml" filepath="$PROJECT_DIR$/Lecture_1_30_25_Arraysort/Lecture_1_30_25_Arraysort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringMergeSort/StringMergeSort.iml" filepath="$PROJECT_DIR$/StringMergeSort/StringMergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture_1_28_25/lecture_1_28_25.iml" filepath="$PROJECT_DIR$/lecture_1_28_25/lecture_1_28_25.iml" />
     </modules>
   </component>
 </project>
