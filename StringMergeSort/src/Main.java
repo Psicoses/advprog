@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-       // System.out.println(mergeSort("ze", "bra"));
-        //System.out.println(sort("zebra"));
+       // System.out.println(mergeStrings("ze", "bra"));
+      //  System.out.println(mergeSort("zebra"));
     }
 
     public static String mergeSort(String str){
@@ -12,9 +12,9 @@ public class Main {
 
         int halfway = str.length()/2;
         String a = str.substring(0, halfway);
-        String b = str.substring(str.length()-halfway);
+        String b = str.substring(halfway);
 
-        return mergeSort(sort(a),sort(b));
+        return mergeStrings(mergeSort(a),mergeSort(b));
     }
 
     public static String mergeStrings(String a, String b){
@@ -22,14 +22,14 @@ public class Main {
 
         int ai = 0, bi = 0;
 
-        while(ai+bi < a.length() + b.length()){
+        while(ai < a.length() || bi < b.length()){
             if(ai == a.length()){
                 c += b.charAt(bi);
                 bi++;
             } else if (bi == b.length()) {
                 c += a.charAt(ai);
                 ai++;
-            }else if (a.charAt(ai) < b.charAt(bi)){
+            }else if (a.charAt(ai) <= b.charAt(bi)){
                 c += a.charAt(ai);
                 ai++;
             }else{
